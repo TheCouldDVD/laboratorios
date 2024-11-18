@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://example.com/tu-imagen-de-fondo.jpg'); /* Cambia esta URL por la de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(30, 30, 30, 0.9); /* Fondo oscuro con opacidad */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px; /* Ancho fijo para el formulario */
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Centra el título */
+    color: #ffffff; /* Color del texto del título */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Color del texto de las etiquetas */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #444; /* Borde más oscuro */
+    border-radius: 4px;
+    background-color: #222; /* Fondo de los campos de entrada */
+    color: #ffffff; /* Color del texto de los campos de entrada */
+}
+
+input::placeholder {
+    color: #aaa; /* Color del texto del placeholder */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c; /* Color del botón al pasar el ratón */
+}
+
+p {
+    text-align: center; /* Centra el texto del párrafo */
+    color: #ffffff; /* Color del texto del párrafo */
+}
+
+a {
+    color: #5cb85c; /* Color del enlace */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
